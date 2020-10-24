@@ -24,33 +24,27 @@
 }
 
 .card-1 {
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
 
 .card-1:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .card-2 {
-  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .card-3 {
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .card-4 {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .card-5 {
-  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
 
 .f-10 {
@@ -234,8 +228,7 @@
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   text-align: right !important;
   direction: rtl;
   font-family: 'Cairo', sans-serif;
@@ -267,7 +260,6 @@ html {
 .register-login .img-form .overlay {
   height: 100%;
   width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#0373BF), to(#023A60));
   background: linear-gradient(#0373BF, #023A60);
   position: absolute;
   top: 0;
@@ -279,7 +271,7 @@ html {
 
 .register-login .img-back {
   position: absolute;
-  top: -40%;
+  top: -55%;
   width: 70%;
   z-index: 1;
   left: 20%;
@@ -326,24 +318,6 @@ a {
   color: #282828;
 }
 
-.container-form input::-webkit-input-placeholder {
-  font-size: 16px;
-  color: #282828;
-  text-align: center !important;
-}
-
-.container-form input:-ms-input-placeholder {
-  font-size: 16px;
-  color: #282828;
-  text-align: center !important;
-}
-
-.container-form input::-ms-input-placeholder {
-  font-size: 16px;
-  color: #282828;
-  text-align: center !important;
-}
-
 .container-form input::placeholder {
   font-size: 16px;
   color: #282828;
@@ -376,18 +350,6 @@ input[type="password"] {
   font-size: 20px !important;
 }
 
-input[type="password"]::-webkit-input-placeholder {
-  font-family: 'Cairo', sans-serif !important;
-}
-
-input[type="password"]:-ms-input-placeholder {
-  font-family: 'Cairo', sans-serif !important;
-}
-
-input[type="password"]::-ms-input-placeholder {
-  font-family: 'Cairo', sans-serif !important;
-}
-
 input[type="password"]::placeholder {
   font-family: 'Cairo', sans-serif !important;
 }
@@ -410,7 +372,6 @@ input[type="password"]::placeholder {
   background-clip: content-box;
   /* support: IE9+ */
   border-radius: 50%;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   padding: 0.5em;
 }
@@ -492,14 +453,12 @@ input[type=checkbox] + label:before {
   height: 25px;
   vertical-align: center;
   color: transparent;
-  -webkit-transition: .2s;
   transition: .2s;
   padding-right: 3px;
 }
 
 input[type=checkbox] + label:active:before {
-  -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 
 input[type=checkbox]:checked + label:before {
@@ -509,14 +468,12 @@ input[type=checkbox]:checked + label:before {
 }
 
 input[type=checkbox]:disabled + label:before {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   border-color: #0373BF;
 }
 
 input[type=checkbox]:checked:disabled + label:before {
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   background-color: #0373BF;
   border-color: #0373BF;
 }
@@ -583,6 +540,10 @@ main {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .img-back {
+    top: -10% !important;
+    z-index: 1;
+  }
   nav ul {
     font-size: 13px !important;
   }
@@ -590,9 +551,7 @@ main {
     font-size: 13px !important;
   }
   nav .col-9 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 75%;
-            flex: 0 0 75%;
+    flex: 0 0 75%;
     max-width: 75%;
   }
 }
@@ -608,9 +567,7 @@ main {
     font-size: 13px !important;
   }
   nav .col-9 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 70%;
-            flex: 0 0 70%;
+    flex: 0 0 70%;
     max-width: 70%;
   }
 }
@@ -624,6 +581,10 @@ main {
 }
 
 @media (min-width: 1px) and (max-width: 768px) {
+  .img-back {
+    top: -10% !important;
+    z-index: 1;
+  }
   #close {
     display: block !important;
     position: absolute;
@@ -669,6 +630,10 @@ main {
 }
 
 @media (min-width: 1px) and (max-width: 767px) {
+  .img-back {
+    top: -0% !important;
+    z-index: 2;
+  }
   nav ul {
     font-size: 13px !important;
   }
@@ -676,9 +641,7 @@ main {
     font-size: 13px !important;
   }
   nav .col-9 {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 0 60%;
-            flex: 0 0 60%;
+    flex: 0 0 60%;
     max-width: 60%;
   }
 }
@@ -749,15 +712,9 @@ aside ul .active-nav a {
   height: 100%;
   background-color: #fff;
   z-index: 9999999999;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .loadingspinner {
@@ -775,17 +732,8 @@ aside ul .active-nav a {
   -o-transition: loadingspin 0.7s linear infinite;
 }
 
-@-webkit-keyframes loadingspin {
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
 @keyframes loadingspin {
   100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-/*# sourceMappingURL=main.css.map */

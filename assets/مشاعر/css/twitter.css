@@ -1,0 +1,67 @@
+.hide-replaced.ws-inputreplace {
+    display: none !important;
+}
+
+.input-picker .picker-list td>button.othermonth {
+    color: #888888;
+    background: #fff;
+}
+
+.ws-inline-picker.ws-size-2,
+.ws-inline-picker.ws-size-4 {
+    width: 49.6154em;
+}
+
+.ws-size-4 .ws-index-0,
+.ws-size-4 .ws-index-1 {
+    padding-bottom: 1em;
+    margin-bottom: 0.5em;
+}
+
+.picker-list.ws-index-2,
+.picker-list.ws-index-3 {
+    margin-top: 3.5em;
+}
+
+div.ws-invalid input {
+    border-color: #c88;
+}
+
+.ws-invalid label {
+    color: #933;
+}
+
+div.ws-success input {
+    border-color: #8c8;
+}
+
+.border-2 {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#search-id {
+    border: none;
+    border-bottom: 2px solid #D4AF37 !important;
+    outline: none;
+}
+
+label {
+    color: #000;
+}
+
+input::placeholder {
+    color: #000 !important;
+}
+
+input[type="date"] {
+    background-color: transparent !important;
+    border: 2px solid #D4AF37;
+}
+
+::-webkit-calendar-picker-indicator {
+    color: #D4AF37 !important;
+}

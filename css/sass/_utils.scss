@@ -1,0 +1,33 @@
+$shadow:red;
+@for $var from 10 to 40 {
+    .f-#{$var} {
+        font-size: $var+px !important;
+    }
+}
+
+$width: 90,
+80,
+70,
+60,
+50,
+40,
+30,
+20,
+10;
+@each $width in $width {
+    .w-#{$width} {
+        width: $width+% !important;
+    }
+}
+
+$weight: 500,
+600,
+700,
+800,
+900,
+;
+@each $weight in $weight {
+    .weight-#{$weight} {
+        font-weight: $weight !important;
+    }
+}

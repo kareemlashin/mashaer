@@ -6,24 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <link rel="stylesheet" href="css/">
-    <link rel="stylesheet" href="css/">
-    <link rel="stylesheet" href="css/">
-    <link rel="stylesheet" href="css/">
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/library/bootstrap.css">
+    <link rel="stylesheet" href="css/library/aos.css">
+    <link rel="stylesheet" href="css/library/Chart.min.css">
+    <link rel="stylesheet" href="css/library/all.min.css">
+
+    <!--map-->
+    <link rel="stylesheet" href="css/library/map/leaflet.css" />
+    <link rel="stylesheet" href="css/library/map/MarkerCluster.css" />
+    <link rel="stylesheet" href="css/library/clusterpies.css" />
+    <link rel="stylesheet" href="css/main.min.css">
+
+
     <title>مشاعر</title>
 </head>
 
 <body>
+    //radio
+    <form action="#">
+        <p>
+            <input type="radio" id="test1" name="radio-group" checked>
+            <label for="test1">Apple</label>
+        </p>
+        <p>
+            <input type="radio" id="test2" name="radio-group">
+            <label for="test2">Peach</label>
+        </p>
+        <p>
+            <input type="radio" id="test3" name="radio-group">
+            <label for="test3">Orange</label>
+        </p>
+    </form>
+    //2
+    <div class="new">
+        <form>
+            <div class="form-group">
+                <input type="checkbox" id="html">
+                <label for="html">HTML</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="css">
+                <label for="css">CSS</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="javascript">
+                <label for="javascript">Javascript</label>
+            </div>
+        </form>
+    </div>
 
+    <h1>Custom Checkboxes</h1>
+    <label class="container-checkbox">One
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>
+    <label class="container-checkbox">Two
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+    <label class="container-checkbox">Three
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+    <label class="container-checkbox">Four
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
 
+    <h1>Custom Radio Buttons</h1>
+    <label class="container-radio">One
+  <input type="radio" checked="checked" name="radio">
+  <span class="checkmark"></span>
+</label>
+    <label class="container-radio">Two
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+    <label class="container-radio">Three
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+    <label class="container-radio">Four
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+</label>
+    <!--select box-->
+    <div>
+        <div class="custome-select">
+            <select>
+              <option>option 1 </option>
+              <option>option 2 </option>
+              <option>option 3 </option>
+            </select>
+        </div>
+    </div>
 
-    <script src="js/"></script>
-    <script src="js/"></script>
-    <script src="js/"></script>
-    <script src="js/"></script>
-    <script src="js/"></script>
-    <script src="js/"></script>
+    <div class="container-fluid px-0 bg-danger">
+        ddddddd
+    </div>
+
+    <i class="fab fa-500px"></i><i class="fab fa-500px"></i>
+    <div class="row" id="container">
+        <div id="map" class="map-90 mx-auto border-5"></div>
+    </div>
+    <script src="js/jquery-3-4-1-min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--map-->
+    <script src="js/map/leaflet.js" charset="utf-8"></script>
+    <script src="js/map/leaflet.markercluster.js" charset="utf-8"></script>
+    <script src="js/map/d3.v3.min.js" charset="utf-8"></script>
+    <!--custom map-->
+    <script src="js/map.js"></script>
 </body>
 
 </html>

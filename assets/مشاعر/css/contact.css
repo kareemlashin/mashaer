@@ -1,0 +1,162 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.field-icon {
+    float: left;
+    margin-left: 10px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    margin: auto;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(DroidKufi-Regular.ttf);
+}
+
+* {
+    font-family: myFirstFont;
+}
+
+.chose-tap {
+    cursor: pointer;
+    color: #D4AF37;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Active {
+    background-color: #fff;
+    border-bottom: 5px solid #D4AF37;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+.contact {
+    background-color: #1D2127 !important;
+    border-radius: 8px;
+}
+
+input {
+    background-color: transparent !important;
+    border: none !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    border-bottom: 2px solid #D4AF37 !important;
+}
+
+.toggle-password {
+    color: #D4AF37 !important;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+input::-moz-placeholder {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+input:-ms-input-placeholder {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+input::-ms-input-placeholder {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.form-control {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+h1 {
+    color: #D4AF37;
+}
+
+button {
+    border: 2px solid #D4AF37;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 12px;
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #D4AF37;
+}
+
+.error {
+    color: #fff;
+    font-size: 12px;
+    color: #D4AF37;
+    display: none;
+}
+
+label {
+    color: #fff;
+    font-size: 19px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.forgetPass {
+    color: #fff !important;
+    text-decoration: underline !important;
+    font-size: 17px;
+}
+
+.chose a {
+    color: #D4AF37 !important;
+}
+
+.w-img {
+    width: 25%;
+}
+
+@media (max-width:800px) {
+    .chose-tap {
+        font-size: 15px !important;
+    }
+    .w-img {
+        width: 50%;
+    }
+    #img-contact {
+        margin-top: 50px !important;
+    }
+}
+
+.container {
+    padding-top: 21px !important;
+}
+
+@media(max-width:800px) {
+    .signUp-tap,
+    .login-tap {
+        padding: 1rem !important;
+    }
+    .chose-tap {
+        font-size: 14px !important;
+    }
+}

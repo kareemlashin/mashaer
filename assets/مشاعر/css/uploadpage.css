@@ -1,0 +1,280 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+@font-face {
+    font-family: myFirstFont;
+    src: url(DroidKufi-Regular.ttf);
+}
+*{
+    font-family: myFirstFont;
+
+}
+a {
+    color: #fff;
+}
+
+.upload-card {
+    font-size: 25px;
+    color: black;
+    font-weight: 900;
+}
+
+.upload-card i {
+    color: #D4AF37;
+}
+
+@media (max-width: 800px) {
+    .upload-card {
+        font-size: 20px;
+        color: black;
+        font-weight: 900;
+    }
+}
+
+.resultButton {
+    border: none;
+    background: #404040;
+    color: #ffffff !important;
+    font-weight: 500;
+    padding: 15px 0px;
+    width: 35%;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    outline: none !important;
+}
+
+.resultButton:hover {
+    color: #404040 !important;
+    background: transparent;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.resultButton:hover a {
+    color: #404040 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .header .logo-container {
+        background: #1D2127 !important;
+        border-bottom: none !important;
+        border-top: none !important;
+    }
+    .img-logo {
+        display: none;
+    }
+    .buttonResult {
+        width: 40%;
+    }
+}
+
+.upload-area h5 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 700;
+}
+
+.upFile {
+    border: none !important;
+}
+
+/****** IGNORE ******/
+
+.file-upload {
+    display: block;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.file-upload .file-select {
+    display: block;
+    border: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.file-upload .file-select .file-select-button {
+    background: #dedede;
+    padding: 0 10px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.file-upload .file-select .file-select-name {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.file-upload .file-select:hover {
+    border-color: #D4AF37;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.file-upload .file-select:hover .file-select-button {
+    background: #D4AF37;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.file-upload.active .file-select {
+    border-color: #34495e;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.file-upload.active .file-select .file-select-button {
+    background: #D4AF37;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+
+.file-upload .file-select input[type=file] {
+    z-index: 100;
+    cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.file-upload .file-select.file-select-disabled {
+    opacity: 0.65;
+}
+
+.file-upload .file-select.file-select-disabled:hover {
+    cursor: default;
+    display: block;
+    border: 2px solid #D4AF37;
+    color: #34495e;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+    text-align: left;
+    background: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+}
+
+.file-upload .file-select.file-select-disabled:hover .file-select-button {
+    background: #dedede;
+    color: #666666;
+    padding: 0 10px;
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+
+.file-upload .file-select.file-select-disabled:hover .file-select-name {
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.switch_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 100px;
+    min-width: 100px;
+    height: 10px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin: auto;
+}
+
+/* Switch 1 Specific Styles Start */
+
+input[type="checkbox"].switch_1 {
+    font-size: 10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 50px;
+    height: 25px;
+    background: #ddd;
+    border-radius: 3em;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch_1:checked {
+    background: #D4AF37;
+}
+
+input[type="checkbox"].switch_1:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
+    box-shadow: 0 0 .25em rgba(0, 0, 0, .3);
+    -webkit-transform: scale(.7);
+    -ms-transform: scale(.7);
+    transform: scale(.7);
+    left: 0;
+    top: 2px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch_1:checked:after {
+    left: calc(85% - 1.2em);
+}
+
+.labelCheck {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}

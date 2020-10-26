@@ -1,4 +1,35 @@
 $(document).ready(function() {
+
+    $(".startDate").change(() => {
+        let startDate = $(".startDate").val();
+        $(".endDate").attr("min", startDate);
+    })
+
+    $("input[type='date']").on("change", function() {
+        this.setAttribute(
+            "data-date",
+            moment(this.value, "YYYY-MM-DD")
+            .format(this.getAttribute("data-date-format"))
+        )
+    })
+
+
+    $(".startDate , .endDate").on("change", function() {
+        this.setAttribute(
+            "data-date",
+            moment(this.value, "YYYY-MM-DD")
+            .format(this.getAttribute("data-date-format"))
+        )
+    })
+    $("tr td input[type='checkbox']").click(function() {
+        let index_checkbox = $(this).index("tr td input[type='checkbox']");
+
+        if ($(this).prop("checked") == true) {
+            $("tbody tr").eq(index_checkbox).addClass("active-tr");
+        } else if ($(this).prop("checked") == false) {
+            $("tbody tr").eq(index_checkbox).removeClass("active-tr");
+        }
+    });
     $(".loading").fadeOut(1500);
     let aside = $("aside");
     let main = $("main");

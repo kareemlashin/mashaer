@@ -39,7 +39,7 @@
                 <div class="force-overflow">
                     <ul>
                         <!-- active item-->
-                        <li class="active-nav">
+                        <li>
                             <a href="index.html"> <i class="fas fa-home"></i> طلبات القبول</a>
                         </li>
                         <li>
@@ -61,7 +61,7 @@
                         <li>
                             <a href="analysis-data.html"> <i class="far fa-chart-bar"></i> تحليل البيانات</a>
                         </li>
-                        <li>
+                        <li class="active-nav">
                             <a href="loadingResult.html"> <i class="far fa-list-alt"></i>تحميل النتائج</a>
                         </li>
                         <li>
@@ -123,17 +123,15 @@
 
 
 
-
             </nav>
             <div class="strap-top ">
                 <div class="d-flex align-items-center mx-3 h-75">
                     <div class="w-100">
                         <span class="mx-1 color-base">
                             
-                            <i class="fas fa-home ml-2"></i>    
+                            <i class="far fa-list-alt ml-2"></i>    
                             <span class="f-19">
-                                طلبات القبول 
-
+                                تحميل النتائج
                             </span>
                         </span>
 
@@ -145,109 +143,91 @@
             </div>
 
             <div class="mx-3 main-all  shadow radius-20 ">
-                <div class="pt-2 fix-table table-responsive ">
+                <div class="pt-2 fix-table  ">
                     <table class="">
-                        <thead class="text-center bg-white ">
+                        <thead class="text-center bg-white text-message ">
 
-                            <tr class="  text-center ">
-                                <th class=" py-2">
-                                    <select name="" id="" class="mx-3">
-                                    <option value="">الموافقه</option>
-                                </select>
-                                </th>
-                                <th>الاسم</th>
-                                <th>البريد الالكتروني</th>
-                                <th>رقم الهاتف</th>
-                                <th>عميل</th>
+                            <tr class="py-2">
+                                <th class="w-75"> النص</th>
+                                <th class="w-25"> المشاعر</th>
                             </tr>
                         </thead>
                         <tbody>
-
-                            <tr class="py-2">
-                                <td class=" py-2">
-                                    <input type="checkbox" class="" id="user1" name="user1" value="user1">
-                                    <label for="user1" class="">
-
-                                    <span class="mx-2"></span>
-                                </label>
+                            <tr>
+                                <td class="py-2 text-right pr-3">
+                                    موقع رائع وحديقة جميلة ويستحق نجمة اضافية
                                 </td>
-                                <td>مالك إبراهيم علي</td>
-                                <td>malek23@gmail.com</td>
-                                <td>+966 01159116034</td>
-                                <td>نسخة تجريبية</td>
+                                <td class="py-2">
+                                    <span class="bdg bdg-positive ">
+
+                                        ايجابي
+                                    </span>
+                                </td>
                             </tr>
-                            <tr class="py-2">
-                                <td class=" py-2">
-                                    <input type="checkbox" class="" id="user2" name="user1" value="user2">
-                                    <label for="user2" class="">
 
-                                    <span class="mx-2"></span>
-                                </label>
+                            <tr>
+
+                                <td class="py-2 text-right pr-3">
+                                    موقع رائع وحديقة جميلة ويستحق نجمة اضافية
                                 </td>
-                                <td>مالك إبراهيم علي</td>
-                                <td>malek23@gmail.com</td>
-                                <td>+966 01159116034</td>
-                                <td>نسخة تجريبية</td>
+                                <td class="py-2">
+                                    <span class="bdg  bdg-negative">
+
+                                        سلبي
+
+                                    </span>
+                                </td>
                             </tr>
-                            <tr class="py-2">
-                                <td class=" py-2">
-                                    <input type="checkbox" class="" id="user3" name="user1" value="user3">
-                                    <label for="user3" class="">
 
-                                    <span class="mx-2"></span>
-                                </label>
+                            <tr>
+
+                                <td class="py-2 text-right pr-3">
+                                    موقع رائع وحديقة جميلة ويستحق نجمة اضافية
                                 </td>
-                                <td>مالك إبراهيم علي</td>
-                                <td>malek23@gmail.com</td>
-                                <td>+966 01159116034</td>
-                                <td>نسخة تجريبية</td>
+                                <!--positive-->
+                                <td class="py-2">
+                                    <span class="bdg bdg-positive ">
+
+                                        ايجابي
+                                    </span>
+                                </td>
                             </tr>
-                            <tr class="py-2">
-                                <td class=" py-2">
-                                    <input type="checkbox" class="" id="user4" name="user1" value="user4">
-                                    <label for="user4" class="">
 
-                                    <span class="mx-2"></span>
-                                </label>
+                            <tr>
+
+                                <td class="py-2 text-right pr-3">
+                                    موقع رائع وحديقة جميلة ويستحق نجمة اضافية
                                 </td>
-                                <td>مالك إبراهيم علي</td>
-                                <td>malek23@gmail.com</td>
-                                <td>+966 01159116034</td>
-                                <td>نسخة تجريبية</td>
+                                <!--neutral-->
+                                <td class="py-2">
+                                    <span class="bdg  bdg-neutral ">
+                                        محايد
+
+                                    </span>
+                                </td>
                             </tr>
-                            <tr class="py-2">
-                                <td class=" py-2">
-                                    <input type="checkbox" class="" id="user5" name="user1" value="user5">
-                                    <label for="user5" class="">
 
-                                    <span class="mx-2"></span>
-                                </label>
-                                </td>
-                                <td>مالك إبراهيم علي</td>
-                                <td>malek23@gmail.com</td>
-                                <td>+966 01159116034</td>
-                                <td>نسخة تجريبية</td>
-                            </tr>
-                            <tr class="py-2">
-                                <td class=" py-2">
-                                    <input type="checkbox" class="" id="user6" name="user1" value="user6">
-                                    <label for="user6" class="">
+                            <tr>
 
-                                    <span class="mx-2"></span>
-                                </label>
+                                <td class="py-2 text-right pr-3">
+                                    موقع رائع وحديقة جميلة ويستحق نجمة اضافية موقع رائع وحديقة جميلة ويستحق نجمة اضافية موقع رائع وحديقة جميلة ويستحق نجمة اضافية
                                 </td>
-                                <td>مالك إبراهيم علي</td>
-                                <td>malek23@gmail.com</td>
-                                <td>+966 01159116034</td>
-                                <td>نسخة تجريبية</td>
+                                <td class="py-2">
+                                    <!--negative-->
+                                    <span class="bdg  bdg-negative">
+
+                                        سلبي
+
+                                    </span>
+                                </td>
                             </tr>
                         </tbody>
 
                     </table>
 
                 </div>
-                <div class="text-center my-2 ">
-                    <button class="btn-base"> <i class="far fa-save px-2"></i>حفظ البينات </button>
+                <div class="text-center my-3 ">
+                    <button class="btn-base"> <i class="fas fa-cloud-download-alt  px-2"></i> تحميل النتائج </button>
                 </div>
             </div>
         </main>

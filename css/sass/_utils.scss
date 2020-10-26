@@ -31,3 +31,18 @@ $weight: 500,
         font-weight: $weight !important;
     }
 }
+
+$radius: 5,
+10,
+15,
+20,
+25;
+@each $radius in $radius {
+    .radius-#{$radius} {
+        border-radius: $radius+px;
+        -webkit-border-radius: $radius+px;
+        -moz-border-radius: $radius+px;
+        -ms-border-radius: $radius+px;
+        -o-border-radius: $radius+px;
+    }
+}

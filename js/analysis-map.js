@@ -159,7 +159,7 @@ $(document).ready(function() {
         legend: {
             display: true,
             position: "top",
-            align: "end",
+            align: "center",
 
         },
 
@@ -167,7 +167,7 @@ $(document).ready(function() {
             onComplete: function() {
                 var chartInstance = this.chart;
                 var ctx = chartInstance.ctx;
-                ctx.textAlign = "left";
+                ctx.textAlign = "center";
                 ctx.font = "9px Open Sans";
                 ctx.fillStyle = "#fff";
 
@@ -193,7 +193,7 @@ $(document).ready(function() {
         type: 'horizontalBar',
         legend: {
             position: "top",
-            align: "end",
+            align: "center",
 
         },
         data: {
@@ -222,7 +222,7 @@ $(document).ready(function() {
         type: 'horizontalBar',
         legend: {
             position: "top",
-            align: "end",
+            align: "center",
 
         },
 
@@ -252,7 +252,7 @@ $(document).ready(function() {
         type: 'horizontalBar',
         legend: {
             position: "top",
-            align: "end",
+            align: "center",
 
         },
         data: {

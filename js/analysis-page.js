@@ -28,7 +28,7 @@ $(document).ready(function() {
 
             legend: {
                 position: "top",
-                align: "end",
+                align: "center",
 
             },
             scales: {
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
             legend: {
                 position: "top",
-                align: "end"
+                align: "center"
             },
             scales: {
                 xAxes: [{
@@ -110,7 +110,7 @@ $(document).ready(function() {
 
             legend: {
                 position: "top",
-                align: "end",
+                align: "center",
 
             },
             scales: {
